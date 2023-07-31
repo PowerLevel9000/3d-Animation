@@ -17,7 +17,7 @@ const Jumbotron = () => {
           <button className="button"> Buy</button>
         </li>
         <li>
-          <a href="" className="link">Learn more</a>
+          <a href="#soundSection" className="link">Learn more</a>
         </li>
         <li>
           <img src={iphoneHand} alt="iphone" className="iphone-img" />

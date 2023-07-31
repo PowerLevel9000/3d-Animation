@@ -1,5 +1,9 @@
 @import url("https://fonts.cdnfonts.com/css/sf-pro-display");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "SF Pro Display", SF Pro Icons, Helvetica Neue, Helvetica, Arial,
@@ -328,7 +332,7 @@ nav .link-styled {
   display: flex;
   align-items: center;
   flex-direction: column;
-  opacity: 0;
+  /* opacity: 0; */
 }
 
 .sound-section .title {
